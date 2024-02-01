@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Рассчет показателя Ra (шероховатость поверхности) при фрезеровке нержавеющей стали импульсным лазерным излучением</h1>
+<h2>Введите значения указанных параметров</h2>
+
+{% if message %}
+<p>{{message}}</p>
+{%endif%}
+
+<form action="" method="post">
+    <p>
+        <label>Мощность P [Вт]</label>
+    <input type="number" name="param1">
+    </p>
+
+
+    <p>
+        <label>Скорость, мм/с</label>
+    <input type="number" name="param2">
+    </p>
+
+
+    <p>
+        <label>Энергия в импульсе E [мДж]</label>
+    <input type="number" name="param3">
+    </p>
+
+
+    <p>
+        <label>Длительность импульса, нс</label>
+    <input type="number" name="param4">
+    </p>
+
+
+    <p>
+        <label>Количество проходов, шт</label>
+    <input type="number" name="param5">
+    </p>
+
+
+    <p>
+        <label>Импульсная мощность, Вт</label>
+    <input type="number" name="param6">
+    </p>
+
+
+    <p>
+        <label>Глубина, мкм</label>
+    <input type="number" name="param7">
+    </p>
+
+
+        <p>
+        <label>Rz, мкм</label>
+    <input type="number" name="param8">
+    </p>
+
+
+            <p>
+        <label>Время выполнения, с</label>
+    <input type="number" name="param9">
+    </p>
+
+
+                <p>
+        <label>Скорость фрезеровки, нм/с</label>
+    <input type="number" name="param10">
+    </p>
+    <p>
+      <input type="submit">
+    </p>
+
+</form>
+</body>
+</html>
